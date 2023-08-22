@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#optionsForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#optionsForm label {
+    margin-bottom: 10px;
+}
+
+#optionsForm input[type="text"],
+#optionsForm select {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#optionsForm button {
+    padding: 10px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#optionsForm button:hover {
+    background-color: #0c85d0;
+}
+
+#optionsForm button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}

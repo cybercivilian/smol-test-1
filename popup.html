@@ -1,0 +1,37 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Comment Chrome Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div id="tweetContainer"></div>
+    <form id="optionsForm">
+        <label for="tone">Tone:</label>
+        <select id="tone">
+            <option value="neutral">Neutral</option>
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+        </select>
+        <label for="writingStyle">Writing Style:</label>
+        <select id="writingStyle">
+            <option value="formal">Formal</option>
+            <option value="informal">Informal</option>
+        </select>
+        <label for="voice">Voice:</label>
+        <select id="voice">
+            <option value="firstPerson">First Person</option>
+            <option value="thirdPerson">Third Person</option>
+        </select>
+        <label for="characterEmulation">Character/Celebrity Emulation:</label>
+        <input type="text" id="characterEmulation">
+        <!-- Add 10 other unique creative options here -->
+    </form>
+    <textarea id="commentBox" placeholder="Write your comment here..."></textarea>
+    <button id="submitComment">Submit Comment</button>
+    <div id="commentList"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
+```

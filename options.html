@@ -1,0 +1,45 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+    <h1>Comment Options</h1>
+    <form id="optionsForm">
+        <label for="tone">Tone:</label>
+        <select id="tone">
+            <option value="neutral">Neutral</option>
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+        </select>
+
+        <label for="writingStyle">Writing Style:</label>
+        <select id="writingStyle">
+            <option value="formal">Formal</option>
+            <option value="informal">Informal</option>
+            <option value="professional">Professional</option>
+        </select>
+
+        <label for="voice">Voice:</label>
+        <select id="voice">
+            <option value="firstPerson">First Person</option>
+            <option value="secondPerson">Second Person</option>
+            <option value="thirdPerson">Third Person</option>
+        </select>
+
+        <label for="characterEmulation">Character/Celebrity Emulation:</label>
+        <input type="text" id="characterEmulation" placeholder="Enter character or celebrity">
+
+        <h2>Other Creative Options:</h2>
+        <div id="creativeOptionsContainer">
+            <!-- Creative options will be dynamically generated here -->
+        </div>
+
+        <button type="submit">Save Options</button>
+    </form>
+    <script src="options.js"></script>
+</body>
+</html>
+```
